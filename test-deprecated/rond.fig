@@ -1,0 +1,1125 @@
+#FIG 3.1
+Landscape
+Center
+Inches
+1200 2
+# 1 Thickness
+# 3 setalufunction
+# -1 -1 200000 200000 setclipzone
+#/Times-Roman findfont 160 scalefont setfont
+# fillsolid
+# 0 Setcolor
+# fillsolid
+# 0 Setcolor
+0 32 #000000
+0 33 #0000ff
+0 34 #00ff00
+0 35 #00ffff
+0 36 #ff0000
+0 37 #ff00ff
+0 38 #ffff00
+0 39 #ffffff
+0 40 #000090
+0 41 #0000b0
+0 42 #0000d0
+0 43 #87ceff
+0 44 #009000
+0 45 #00b000
+0 46 #00d000
+0 47 #009090
+0 48 #00b0b0
+0 49 #00d0d0
+0 50 #900000
+0 51 #b00000
+0 52 #d00000
+0 53 #900090
+0 54 #b000b0
+0 55 #d000d0
+0 56 #803000
+0 57 #a04000
+0 58 #c06000
+0 59 #ff8080
+0 60 #ffa0a0
+0 61 #ffc0c0
+0 62 #ffe0e0
+0 63 #ffd700
+0 64 #000000 
+0 65 #ffffff 
+2 2 0 0 -1 -1 0 0 -1 0.000 0 0 0 0 0 5
+ 0 0 9600 0 9600 6784 0 6784 0 0 
+# Object : 0 drawbox -<34>- 
+2 2 0 1 65 65 0 0 20 0.000 0 0 0 0 0 5
+ 0 0 9600 0 9600 6784 0 6784 0 0 
+# 0 Setcolor
+# 33 Setcolor
+# Object : 0 drawpoly -<pat:-34,areafill=20,white=31>- 
+2 3 0 1 65 65 0 0 20 0.00 0 0 -1 0 0 7
+8400 2763 4080 848 1200 2125 1200 4021 5520 5936 8400 4659 8400 2763 
+# 33 Setcolor
+#/absolu true def
+# 0 Setcolor
+# 1 Thickness
+# Object : 0 segments -<0>- 
+2 1 1 1 35 7 0 0 -1 2.000 0 0 0 0 0 2
+ 4080 2744 1200 4021 
+# Object : 1 segments -<0>- 
+2 1 1 1 35 7 0 0 -1 2.000 0 0 0 0 0 2
+ 4080 2744 8400 4659 
+# Object : 2 segments -<0>- 
+2 1 1 1 35 7 0 0 -1 2.000 0 0 0 0 0 2
+ 4080 2744 4080 848 
+# 0 Setcolor
+# 1 Thickness
+# 0 Setcolor
+#/closeflag false def
+# Object : 0 drawpoly -<pat:0,areafill=-1,white=31>- 
+2 1 0 1 32 7 0 0 -1 0.00 0 0 -1 0 0 7
+8400 2763 4080 848 1200 2125 1200 4021 5520 5936 8400 4659 8400 2763 
+# 0 Setcolor
+#/absolu true def
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 367.00 571 4001 -1.5\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 4021 1069 3963 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 4021 1134 3992 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3916 1134 3887 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3810 1134 3781 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 367.00 571 3685 -1.0\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3705 1069 3647 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 1200 3705 4080 2428 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 4080 2428 8400 4343 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3705 1134 3676 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3600 1134 3571 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3494 1134 3465 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 367.00 571 3369 -0.5\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3389 1069 3331 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 1200 3389 4080 2112 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 4080 2112 8400 4027 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3389 1134 3360 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3284 1134 3255 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3178 1134 3149 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 275.00 663 3053 0.0\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3073 1069 3015 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 1200 3073 4080 1796 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 4080 1796 8400 3711 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 3073 1134 3044 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 2967 1134 2938 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 2862 1134 2833 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 275.00 663 2737 0.5\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 2757 1069 2699 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 1200 2757 4080 1480 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 4080 1480 8400 3395 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 2757 1134 2728 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 2651 1134 2622 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 2546 1134 2517 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 275.00 663 2421 1.0\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 2441 1069 2383 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 1200 2441 4080 1164 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 4080 1164 8400 3079 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 2441 1134 2412 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 2335 1134 2306 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 2230 1134 2201 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 275.00 663 2105 1.5\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 2125 1069 2067 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+4 0 64 0 0 16 10 -4.71 4 192.00 91.00 480 3099 Z\001
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 367.00 8662 4967 -1.0\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 8400 4659 8531 4717 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 8208 4744 8273 4773 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 8016 4830 8081 4859 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 367.00 8086 5223 -0.6\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 7824 4915 7955 4973 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 7824 4915 3504 3000 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 3504 3000 3504 1104 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 7632 5000 7697 5029 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 7440 5085 7505 5114 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 367.00 7510 5478 -0.2\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 7248 5170 7379 5228 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 7248 5170 2928 3255 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 2928 3255 2928 1359 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 7056 5255 7121 5284 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 6864 5340 6929 5369 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 275.00 6934 5733 0.2\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 6672 5425 6803 5483 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 6672 5425 2352 3510 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 2352 3510 2352 1614 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 6480 5510 6545 5539 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 6288 5596 6353 5625 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 275.00 6358 5989 0.6\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 6096 5681 6227 5739 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 6096 5681 1776 3766 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 1776 3766 1776 1870 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 5904 5766 5969 5795 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 5712 5851 5777 5880 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 275.00 5782 6244 1.0\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 5520 5936 5651 5994 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+4 0 64 0 0 16 10 -0.00 4 192.00 91.00 7661 6067 X\001
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 367.00 571 4329 -1.5\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 4021 1069 4079 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1200 4021 1134 4050 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1440 4127 1374 4156 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1680 4234 1614 4263 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 367.00 1291 4648 -1.0\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1920 4340 1789 4398 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 1920 4340 4800 3063 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 4800 3063 4800 1167 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 1920 4340 1854 4369 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 2160 4447 2094 4476 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 2400 4553 2334 4582 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 367.00 2011 4967 -0.5\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 2640 4659 2509 4717 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 2640 4659 5520 3382 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 5520 3382 5520 1486 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 2640 4659 2574 4688 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 2880 4766 2814 4795 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 3120 4872 3054 4901 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 275.00 2823 5286 0.0\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 3360 4978 3229 5036 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 3360 4978 6240 3701 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 6240 3701 6240 1805 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 3360 4978 3294 5007 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 3600 5085 3534 5114 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 3840 5191 3774 5220 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 275.00 3543 5606 0.5\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 4080 5298 3949 5356 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 4080 5298 6960 4021 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 6960 4021 6960 2125 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 4080 5298 4014 5327 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 4320 5404 4254 5433 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 4560 5510 4494 5539 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 275.00 4263 5925 1.0\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 4800 5617 4669 5675 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 4800 5617 7680 4340 
+# Object : 0 segments -<0>- 
+2 1 1 1 32 7 0 0 -1 4.000 0 0 0 0 0 2
+ 7680 4340 7680 2444 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 4800 5617 4734 5646 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 5040 5723 4974 5752 
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 5280 5830 5214 5859 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+4 0 64 0 0 16 10 -0.00 4 192.00 275.00 4983 6244 1.5\001
+# 0 Setcolor
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 5520 5936 5389 5994 
+#/Helvetica findfont 160 scalefont setfont
+# 32 Setcolor
+4 0 64 0 0 16 10 -0.00 4 192.00 91.00 2706 5855 Y\001
+# 32 Setcolor
+#/Helvetica findfont 160 scalefont setfont
+#/Helvetica findfont 160 scalefont setfont
+# 0 Setcolor
+# 0 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 2 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 2 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 1 Thickness
+# 1 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 4 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 3 Thickness
+# 2 Setcolor
+# 0 Setcolor
+# 1 Thickness
+# Object : 0 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 5520 4040 8400 2763 
+# Object : 1 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 5520 4040 1200 2125 
+# Object : 2 segments -<0>- 
+2 1 0 1 32 7 0 0 -1 0.000 0 0 0 0 0 2
+ 5520 4040 5520 5936 
+# 3 Thickness
+# 2 Setcolor

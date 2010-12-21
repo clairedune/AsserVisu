@@ -1,0 +1,23 @@
+N=5000;
+X=zeros(N,1);
+U=zeros(N,1);
+E=zeros(N,1);
+x=3;
+e=0;
+k=1;
+umax=.3;
+T=1e-2;
+for i=1:N,
+ u=-k*(x-e);
+ //u=-k*(x);
+ if (u<-umax) u=-umax; end;
+ if (u>umax) u=umax; end;
+ X(i)=x;
+ U(i)=u;
+ v=u-sin(T*i);
+ v=u-sin(T*i);//i*(N-i)*4/N/N;
+ x=x+T*v;//*(v+sin(3*T*i));
+ e=e+T*(v-u);
+ E(i)=e;
+end;
+plot([X,U,E]);
