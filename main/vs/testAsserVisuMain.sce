@@ -6,7 +6,7 @@
 // ;exec('testAsserVisuTous.sce');
 //--------------------------------------------------//
 
-clear
+//clear
 
 //------- Load the functions
 

@@ -15,3 +15,14 @@ for i = 1:nbPts
         zc(i) = vectC ( 3 ) ;
 end;
 endfunction
+
+
+function wX = changeFramePoints(oX,wMo)
+//change frame
+  N = length(oX)/4;
+  wX=[];
+  for i=1:N
+   wP = wMo*[oX((i-1)*4+1:(i-1)*4+4)];
+   wX = [wX wP];
+  end
+endfunction

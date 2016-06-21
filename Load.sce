@@ -2,7 +2,8 @@
   //--------------------------------------------------//
   //              LOAD The Files                      //
   //--------------------------------------------------//
-  path=get_absolute_file_path("AsserVisu");
+  //path=get_absolute_file_path("AsserVisu");
+  path="./";
   disp('HOME:'+path),
   getd(path + "src/graphisme");           // charge les fonctions d'affichage graphique         
   getd(path + "src/transformation");      // algebre dans Se3, changement de repere
