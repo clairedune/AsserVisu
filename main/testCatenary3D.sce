@@ -29,7 +29,7 @@ sigma1_P = [sigma1_X;sigma1_Y;sigma1_Z;ones(length(sigma1_X),1)'];
 
 plot3d(sigma1_P(1,:),sigma1_P(2,:),sigma1_P(3,:));
 
-//--------- Change of frame -------------- //
+//--------- Defining the system frames -------------- //
 // pose of the attached point frame in the camera frame
 Tx                   = 0.3; // rayon du turle
 Ty                   = -0.002;

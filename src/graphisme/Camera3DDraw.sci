@@ -28,7 +28,7 @@ function Camera3DDrawColor(scale,M,col)
 // cette fonction prepare un objet camera pour
 // l'affichage
 
-[xc,yc,zc] = Camera3D(scale,M)
+[xc,yc,zc] = Camera3D(scale,M);
 
 //// x axis
 plot3d (xc(1:2), yc(1:2), zc(1:2));

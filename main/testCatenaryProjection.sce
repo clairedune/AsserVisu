@@ -29,7 +29,7 @@ sigma1_P = [sigma1_X;sigma1_Y;sigma1_Z;ones(length(sigma1_X),1)'];
 
 plot3d(sigma1_P(1,:),sigma1_P(2,:),sigma1_P(3,:));
 
-//--------- Change of frame -------------- //
+//--------- Defining the system frames -------------- //
 // pose of the attached point frame in the camera frame
 Tx                   = 0.3; // rayon du turle
 Ty                   = -0.002;
@@ -66,7 +66,8 @@ Camera3DDraw(0.1,w_M_sigma2);
 // change point frame
 // sigma2 is the frame attached to the fixation point and oriented 
 // towards the robot direction
-for thetai=-abs(theta):abs(theta)/10:abs(theta)
+//for thetai=-abs(theta):abs(theta)/10:abs(theta)
+thetai =theta;
 
     pose_sigma1_M_sigma2 = [-D 0 H 0 0 thetai];
     sigma1_M_sigma2      = homogeneousMatrixFromPos(pose_sigma1_M_sigma2);
@@ -77,7 +78,7 @@ for thetai=-abs(theta):abs(theta)/10:abs(theta)
     Camera3DDraw(0.1,w_M_sigma1);
     param3d(w_P(1,:),w_P(2,:),w_P(3,:),'r');
 
-end
+//end
 
 //plot(sigma1_P(1),sigma1_P(3));
 
