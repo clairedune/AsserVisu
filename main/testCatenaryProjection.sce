@@ -3,6 +3,8 @@
 // test catenary projection in an image
 
 //-------- CATENARY PARAMETERS------------//
+
+
 // rope semi lenght
 R = 0.5;
 // rope sag
@@ -84,3 +86,7 @@ thetai =theta;
 
 //pause
 //plot3d(sigma2_P(1,:),sigma2_P(2,:),sigma2_P(3,:),'r');
+
+// z       = (Tx*sqrt(1-b^2) + Tz*b)./(b + x_img*(sqrt(1-b^2)));
+//    t       = (Tx - Tz*x_img)./(b + x_img*sqrt(1-b^2));
+//    y_img   = (1./z).*(-(1/C)*(cosh(C*(t-D))-1) + h + Ty);
