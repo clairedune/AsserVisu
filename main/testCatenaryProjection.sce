@@ -57,6 +57,8 @@ r_M_w                = inv(w_M_r);
 w_M_sigma2           = w_M_r*r_M_sigma2;
 w_M_c                = w_M_r*r_M_c; 
 
+
+
 figure(3);
 Camera3DDraw(0.1,eye(4,4));
 Camera3DDraw(0.1,w_M_r);
@@ -80,9 +82,31 @@ thetai =theta;
     Camera3DDraw(0.1,w_M_sigma1);
     param3d(w_P(1,:),w_P(2,:),w_P(3,:),'r');
 
-//end
+//end 
+    c_M_sigma1           = c_M_r * r_M_sigma2 * sigma2_M_sigma1;
+    c_P                  = changeFramePoints(sigma1_P,c_M_sigma1);
+    c_PX                 = c_P(1,:);
+    c_PY                 = c_P(2,:);
 
-//plot(sigma1_P(1),sigma1_P(3));
+//cut frame
+    c_px                 = [];
+    c_py                 = [];
+    
+for i=1:length(c_P)
+    x = c_P(1,:)./c_P(3,:);
+    y = c_P(2,:)./c_P(3,:);
+    if(x>-0.2 & y>-0.2 & x<0.2 & y<0.2)
+    c_px                 = [c_px;x];
+    c_py                 = [c_py;y];
+    end
+end
+
+        
+figure(4)
+plot(c_PX,c_PY);
+
+figure(5)
+plot(c_px,c_py);
 
 //pause
 //plot3d(sigma2_P(1,:),sigma2_P(2,:),sigma2_P(3,:),'r');
