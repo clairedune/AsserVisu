@@ -12,7 +12,7 @@ H = 0.3 ;
 // max rope sag == fixation point heigh
 Hmax = 0.5 ;
 // rope orientation wrt the robot frame
-theta = -50 *%pi/180;
+theta = -85 *%pi/180;
 
 
 // semi distance between the two fixation points
@@ -70,8 +70,18 @@ Camera3DDraw(0.1,w_M_sigma2);
 // change point frame
 // sigma2 is the frame attached to the fixation point and oriented 
 // towards the robot direction
-//for thetai=-abs(theta):abs(theta)/10:abs(theta)
-thetai =theta;
+
+index = 0;
+
+
+for thetai=-abs(theta):abs(theta)/5:abs(theta)
+
+    index =index + 1;
+    
+    disp(index);
+    disp(thetai/%pi*180);
+    
+    thetai =theta;
 
     pose_sigma1_M_sigma2 = [-D 0 H 0 0 thetai];
     sigma1_M_sigma2      = homogeneousMatrixFromPos(pose_sigma1_M_sigma2);
@@ -79,6 +89,7 @@ thetai =theta;
     w_M_sigma1           = w_M_sigma2*sigma2_M_sigma1;
     w_P                  = changeFramePoints(sigma1_P,w_M_sigma1);
 
+scf(3);
     Camera3DDraw(0.1,w_M_sigma1);
     param3d(w_P(1,:),w_P(2,:),w_P(3,:),'r');
 
@@ -92,25 +103,24 @@ thetai =theta;
     c_px                 = [];
     c_py                 = [];
     
-for i=1:length(c_P)
-    x = c_P(1,:)./c_P(3,:);
-    y = c_P(2,:)./c_P(3,:);
-    if(x>-0.2 & y>-0.2 & x<0.2 & y<0.2)
-    c_px                 = [c_px;x];
-    c_py                 = [c_py;y];
-    end
+for i=1:(size(c_P,2))
+    x = c_P(1,i)/c_P(3,i);
+    y = c_P(2,i)/c_P(3,i);
+    if(x>-0.2 & y>-0.15 & x<0.2 & y<0.15)
+        c_px                 = [c_px;x];
+        c_py                 = [c_py;y];
+    end 
 end
 
         
-figure(4)
-plot(c_PX,c_PY);
+scf(5);
+plot(c_P(1,:)./c_P(3,:), -c_P(2,:)./c_P(3,:),'r');
+plot(c_px,-c_py,'bx');
 
-figure(5)
-plot(c_px,c_py);
+points = [c_px,c_py];
 
-//pause
-//plot3d(sigma2_P(1,:),sigma2_P(2,:),sigma2_P(3,:),'r');
+savematfile('data'+string(index)+'.mat','points','-v7');
 
-// z       = (Tx*sqrt(1-b^2) + Tz*b)./(b + x_img*(sqrt(1-b^2)));
-//    t       = (Tx - Tz*x_img)./(b + x_img*sqrt(1-b^2));
-//    y_img   = (1./z).*(-(1/C)*(cosh(C*(t-D))-1) + h + Ty);
+end
+
+
