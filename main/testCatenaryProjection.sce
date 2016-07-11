@@ -10,7 +10,7 @@ R       = 0.5;
 // rope sag
 H       = 0.3 ;
 // max rope sag == fixation point heigh
-Hmax    = 0.5 ;
+Hmax    = R ;
 // rope orientation wrt the robot frame
 theta   = -15 *%pi/180;
 
