@@ -1,3 +1,14 @@
+function drawTurtleTop(x,y,s)
+    plot(x,y,'s');
+    xarc(x-(s/2),y+(s/2),s,s,0,360*64);
+endfunction
+
+function drawTurtleSide(x,z,s)
+    plot(x,z,'s');
+    xrect(x-(s/2),z+(s/2),s,s);
+endfunction
+
+
 function hf = createFigure3D(number,titlefig,scale)
   xset("window",number);
   xset("pixmap",1);
