@@ -51,7 +51,7 @@ function [param,D,wP,XA,YA,ZA,wMsigma1] = thetheredRobotCatenary(wMr1,wMr2,r1Msi
     wP                = changeFramePoints(sigma1P,wMsigma1);
 
     // Set to zero all the points that are beyond the ground.
-    wP(3,:)=wP(3,:).*(wP(3,:)>0);
+//    wP(3,:)=wP(3,:).*(wP(3,:)>0);
     
     param = [H/Hmax,sin(-theta)];
     
