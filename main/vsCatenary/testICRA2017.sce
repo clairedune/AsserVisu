@@ -187,7 +187,7 @@ for time = 0:dt:10
         plot(w_P(1,:),w_P(2,:),'b');
     end
     
-    plot(w_Pd(1,:),w_Pd(2,:),'r--');
+    //plot(w_Pd(1,:),w_Pd(2,:),'r--');
     drawnow();
     
     //------------------- LATERAL VIEW ----------------------------------//
@@ -209,7 +209,7 @@ for time = 0:dt:10
         plot(w_P(1,:),w_P(3,:),'b');
     end        
     
-    plot(w_Pd(1,:),w_Pd(3,:),'r--');
+  //  plot(w_Pd(1,:),w_Pd(3,:),'r--');
     drawnow();
     
     
