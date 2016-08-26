@@ -1,10 +1,10 @@
 function drawTurtleTop(x,y,s)
-    plot(x,y,'s');
+    plot(x,y,'.k');
     xarc(x-(s/2),y+(s/2),s,s,0,360*64);
 endfunction
 
 function drawTurtleSide(x,z,s)
-    plot(x,z,'s');
+////    plot(x,z,'.k');
     xrect(x-(s/2),z+(s/2),s,s);
 endfunction
 
