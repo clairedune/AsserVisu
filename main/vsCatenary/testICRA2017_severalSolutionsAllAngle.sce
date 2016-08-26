@@ -146,17 +146,11 @@ for alpha = %pi/2+45*%pi/180:45*%pi/180:3*%pi/2-45*%pi/180
         pose_w_M_sigma2          = pFromHomogeneousMatrix(w_M_r2*r2_M_sigma2);
         pose_w_M_sigma3          = pFromHomogeneousMatrix(w_M_r1*r1_M_sigma3);
         pose_w_M_sigma4          = pFromHomogeneousMatrix(w_M_r1*r2_M_sigma2);
-        drawTurtleTop(pose_w_M_r1(1),pose_w_M_r1(2),turtleD);// leader
-        drawTurtleTop(pose_w_M_r2(1),pose_w_M_r2(2),turtleD);//Follower
+//        drawTurtleTop(pose_w_M_r1(1),pose_w_M_r1(2),turtleD);// leader
+  //      drawTurtleTop(pose_w_M_r2(1),pose_w_M_r2(2),turtleD);//Follower
         //    drawFoVTop(c_FoV,w_M_c) ;                            // FoV 
-        plot(pose_w_M_sigma2(1),pose_w_M_sigma2(2),'.r');     // Leader Robot Center
-        plot(pose_w_M_sigma3(1),pose_w_M_sigma3(2),'.r');     // Follower Robot Center  
-        nx = [pose_w_M_r2(1) pose_w_M_sigma2(1)];
-        ny = [pose_w_M_r2(2) pose_w_M_sigma2(2)];
-        xarrows(nx, ny) ;
-        nx = [pose_w_M_r1(1) pose_w_M_sigma4(1)];
-        ny = [pose_w_M_r1(2) pose_w_M_sigma4(2)];
-        xarrows(nx, ny) ;
+        drawWheeledTurtleTop(w_M_r1,turtleD);
+        drawWheeledTurtleTop(w_M_r2,turtleD);        
         xarc(pose_w_M_sigma3(1)-2*Dd,pose_w_M_sigma3(2)+2*Dd,4*Dd,4*Dd,0,360*64);
         plot(w_P(1,:),w_P(2,:),'r');
     
