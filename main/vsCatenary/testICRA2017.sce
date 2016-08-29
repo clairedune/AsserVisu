@@ -33,8 +33,9 @@ pose_w_M_r2           = [0,0.4,turtleH/2,0,0,angle2];    // pose in general fram
 angled                = 0*%pi/180;                       // angle around vertical axis
 pose_w_M_r2d          = [0.5,0.4,turtleH/2,0,0,angled];  // pose in general frame
 
-// -------- VISUAL SERVOING GAIN --------------------//
-lambda  = 1;
+// -------- VISUAL SERVOING  --------------------//
+lambda  = 1;        // gain
+OPT_XAYAZA_des = 1; // fix the leader robot attach point to the desired position
 
 // --------- OPTION FOR GRAPHICAL DISPLAY ----------//
 OPT_3D  = 0; // set to 1 to display 3D view
@@ -163,8 +164,12 @@ for time = 0:dt:10
     
     // ---- INTERACTION MATRIX FOR 3D  CATENARY ------ //
     e     = param' - paramd';
-    L     = catenary3DIntMat( R, Hmax, param, xA, yA, zA )  ;  
     
+    if(OPT_XAYAZA_des)
+        L     = catenary3DIntMat( R, Hmax, param, xAd, yAd, zAd )  ;  
+    else
+        L     = catenary3DIntMat( R, Hmax, param, xA, yA, zA )  ;      
+    end
     //change of frame between sigma2 and r2 
     r2_V_sigma2 = twistMatrix(r2_M_sigma2);
     v_sigma2    = - lambda*pinv(L)*e;
