@@ -33,11 +33,12 @@ pose_w_M_r2           = [0,0.4,turtleH/2,0,0,angle2];    // pose in general fram
 angled                = 0*%pi/180;                       // angle around vertical axis
 pose_w_M_r2d          = [0.5,0.4,turtleH/2,0,0,angled];  // pose in general frame
 
-// -------- VISUAL SERVOING GAIN --------------------//
-lambda  = 1;
+// -------- VISUAL SERVOING  --------------------//
+lambda  = 1;        // gain
+OPT_XAYAZA_des = 1; // fix the leader robot attach point to the desired position
 
 // --------- OPTION FOR GRAPHICAL DISPLAY ----------//
-OPT_3D  = 1; // set to 1 to display 3D view
+OPT_3D  = 0; // set to 1 to display 3D view
 
 // ------- Camera parameters -----------//
 im_px      = 600*10^(-6); 
@@ -55,7 +56,6 @@ pose_r2_M_c           = [r2Tc_x,r2Tc_y,r2Tc_z,-%pi/2,%pi/2,0];
 
 //////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////
-
 
 // define 3D points to draw camera FOV
 c_FoV      = FoV (im_u0,im_v0,im_px,im_py);
@@ -79,10 +79,6 @@ r2_M_sigma2           = homogeneousMatrixFromPos(pose_r2_M_sigma2);
 sigma2_M_r2           = inv(r2_M_sigma2);
  
 //// pose of the camera in the follower robot frame 
-//cTx                   = -turtleD/2; // turtle semi diameter
-//cTy                   = 0;
-//cTz                   = turtleH/2; 
-//pose_r2_M_c           = [cTx,cTy,cTz,-%pi/2,%pi/2,0];
 r2_M_c                = homogeneousMatrixFromPos(pose_r2_M_c);
 c_M_r2                = inv(r2_M_c);
 
@@ -162,16 +158,23 @@ for time = 0:dt:10
     w_P_positif(3,:) = w_P(3,:).*(w_P(3,:)>0);
     
     // -------- IMAGE FORMATION --------//
-    w_M_c                = w_M_r2 * r2_M_c;
-    c_M_sigma1           = inv(w_M_c) * w_M_sigma1 ;
+    w_M_c                    = w_M_r2 * r2_M_c;
+    c_M_sigma1               = inv(w_M_c) * w_M_sigma1 ;
     [c_P,c_pm,c_pp,nbpoints] = imageProjection(inv(w_M_c),w_P,im_u0,im_v0,im_px,im_py);
     
     // ---- INTERACTION MATRIX FOR 3D  CATENARY ------ //
     e     = param' - paramd';
-    L     = catenary3DIntMat( R, Hmax, param, xA, yA, zA )  ;  
-    v_r2  = - lambda*pinv(L)*e; 
-  
     
+    if(OPT_XAYAZA_des)
+        L     = catenary3DIntMat( R, Hmax, param, xAd, yAd, zAd )  ;  
+    else
+        L     = catenary3DIntMat( R, Hmax, param, xA, yA, zA )  ;      
+    end
+    //change of frame between sigma2 and r2 
+    r2_V_sigma2 = twistMatrix(r2_M_sigma2);
+    v_sigma2    = - lambda*pinv(L)*e;
+    v_r2        = r2_V_sigma2*v_sigma2;  
+  
     //------------------- TOP VIEW --------------------------------------//
     pose_w_M_r1              = pFromHomogeneousMatrix(w_M_r1);
     pose_w_M_r2              = pFromHomogeneousMatrix(w_M_r2);
